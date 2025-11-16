@@ -1,0 +1,42 @@
+From 26f94667963dc417b08cc34362bcf54e8c1623b1 Mon Sep 17 00:00:00 2001
+From: Georgnapr <georgnapr@gmail.com>
+Date: Sun, 16 Nov 2025 16:31:22 +0300
+Subject: [PATCH 3/4] modify main.py: import data from initial data and use it
+
+---
+ initial_data.py | 4 ++--
+ main.py         | 6 +++---
+ 2 files changed, 5 insertions(+), 5 deletions(-)
+
+diff --git a/initial_data.py b/initial_data.py
+index 76ccb43..1f4f5d6 100644
+--- a/initial_data.py
++++ b/initial_data.py
+@@ -1,2 +1,2 @@
+-a = 2
+-b = 7
+\ No newline at end of file
++A = 2
++B = 7
+\ No newline at end of file
+diff --git a/main.py b/main.py
+index bcbd634..ceb49d8 100644
+--- a/main.py
++++ b/main.py
+@@ -1,10 +1,10 @@
+ from utils import add_numbers
+ from config import NAME
+-
++from initial_data import A, B
+ def main():
+     print(f"Привет, {NAME}!")
+-    a = 5
+-    b = 3
++    a = A
++    b = B
+     result = add_numbers(a, b)
+     print(f"{a} + {b} = {result}")
+ 
+-- 
+2.49.0.windows.1
+

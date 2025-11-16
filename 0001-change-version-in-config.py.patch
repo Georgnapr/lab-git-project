@@ -1,0 +1,22 @@
+From dea787b4ea9e33d835272fdf6f58cf668417b24c Mon Sep 17 00:00:00 2001
+From: Georgnapr <georgnapr@gmail.com>
+Date: Sun, 16 Nov 2025 14:53:18 +0300
+Subject: [PATCH 1/4] change version in config.py
+
+---
+ config.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/config.py b/config.py
+index 2a41ca5..bcbb96a 100644
+--- a/config.py
++++ b/config.py
+@@ -1,2 +1,2 @@
+ NAME = "Пользователь"
+-VERSION = "1.1"
+\ No newline at end of file
++VERSION = "1.25"
+\ No newline at end of file
+-- 
+2.49.0.windows.1
+

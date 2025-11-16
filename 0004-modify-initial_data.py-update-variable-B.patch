@@ -1,0 +1,22 @@
+From 961ca93428eaaeaab941fb99e1fff993bda887cd Mon Sep 17 00:00:00 2001
+From: Georgnapr <georgnapr@gmail.com>
+Date: Sun, 16 Nov 2025 16:32:35 +0300
+Subject: [PATCH 4/4] modify initial_data.py: update variable B
+
+---
+ initial_data.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/initial_data.py b/initial_data.py
+index 1f4f5d6..d7dc210 100644
+--- a/initial_data.py
++++ b/initial_data.py
+@@ -1,2 +1,2 @@
+ A = 2
+-B = 7
+\ No newline at end of file
++B = 10
+\ No newline at end of file
+-- 
+2.49.0.windows.1
+
