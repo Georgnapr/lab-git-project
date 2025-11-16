@@ -4,7 +4,7 @@ from config import NAME
 def main():
     print(f"Привет, {NAME}!")
     a = 5
-    b = 3
+    b = 8
     result = add_numbers(a, b)
     print(f"{a} + {b} = {result}")
 
